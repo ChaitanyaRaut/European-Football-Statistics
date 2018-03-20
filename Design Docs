@@ -5,3 +5,9 @@ Attributes- League Goals, Goals in UEFA.
 What about Tournament object? 
 
 How to a tournament, a player and goals in a tournament are related?
+
+First Approach - 
+A player has 3 attributes domestic league, continental league and domestic cup. Each of them will have statistics in these competitions.
+Will combine all of the stats into another attribute.
+Problem? - Need a database focused on players not competitions. All of the data is available according to a tournament. Need to get this 
+data into my form.
