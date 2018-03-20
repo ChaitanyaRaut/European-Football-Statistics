@@ -1,0 +1,15 @@
+General constrains -
+1. Consider top 5 leagues + UEFA competetions initially. Can add domestic cups and other leagues later.
+2. Consider top 5 players from each competetion.
+
+First Draft-
+1. Goals scored in league and UEFA. Compile a table for league and total.
+
+Feature planned for later-
+1. Simillar table for assists.
+2. Goals + Assists.
+3. Undefeated clubs - overall, league, only UCL, domestic cup.
+4. Goals scored and conceded for a club. Club with the highest goals, club with the least conceded, max GD.
+5. Overall stats for a club in the season. (Played, Won, Drawn, Lost, Goals Scored, Conceded).
+6. Overall stats for a player in the season. (Played, Goals Scored, Assists).
+7. Clubs with a 100% record (simillar to point 4).
