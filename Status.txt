@@ -1,0 +1,8 @@
+1. SQLObjects - Figure out setting up database (MYSQL) and its connections (refer Phoenix)
+
+2. DB updation script - takes output of web_scrapper script and populates/updates DB entries. Need to 
+	incorporated all BL level logics as well.
+
+4. Environment related -
+	1. Github - need to push a commit
+	2. VCS - search in project, python linting, setup the project
