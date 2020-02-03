@@ -6,6 +6,7 @@ class Player_stats(sqlobject.SQLObject):
     player = sqlobject.ForeignKey('Players')
     goals = sqlobject.IntCol()
     assists = sqlobject.IntCol()
+    season  = sqlobject.UnicodeCol(length = 255)
 
 
 class Team_stats(sqlobject.SQLObject):
@@ -18,6 +19,7 @@ class Team_stats(sqlobject.SQLObject):
     goals_for = sqlobject.IntCol()
     goals_against = sqlobject.IntCol()
     points = sqlobject.IntCol()
+    season = sqlobject.UnicodeCol(length = 255)
 
 
 
