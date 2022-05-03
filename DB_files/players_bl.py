@@ -38,6 +38,13 @@ class Players():
         # TODO: How to avoid duplicates?
         return player[0]
 
+    def get_players_by_club(self, club):
+        players = self.dlobj._listby(club=club)
+        if not players:
+            return None
+
+        return players
+
 # TODO: Finish other required functions for the BL
 
 
