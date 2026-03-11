@@ -8,6 +8,11 @@ class Player_stats(sqlobject.SQLObject):
     assists = sqlobject.IntCol()
     season  = sqlobject.UnicodeCol(length = 255)
 
+    class sqlmeta:
+        table = 'player_stats'
+
+    # TODO: Add constrains
+
 
 class Team_stats(sqlobject.SQLObject):
     tournament = sqlobject.ForeignKey('Tournaments') 
@@ -20,6 +25,12 @@ class Team_stats(sqlobject.SQLObject):
     goals_against = sqlobject.IntCol()
     points = sqlobject.IntCol()
     season = sqlobject.UnicodeCol(length = 255)
+
+    class sqlmeta:
+        table = 'team_stats'
+
+    # TODO: Add constrains
+
 
 
 

@@ -32,7 +32,7 @@ class Players(sqlobject.SQLObject):
     player_name = sqlobject.UnicodeCol(length = 255)
     country     = sqlobject.UnicodeCol(length = 255)
     club        = sqlobject.ForeignKey('Teams') 
-    season          = sqlobject.UnicodeCol(length = 255)
+    season      = sqlobject.UnicodeCol(length = 255)
     
     class sqlmeta:
         table = 'players'
